@@ -6,7 +6,7 @@
       "properties": {
         "marker-color": "#fd0d0d",
         "marker-size": "medium",
-        "https://static.thenounproject.com/png/2768411-200.png": ""
+        "image:https://static.thenounproject.com/png/2768411-200.png": ""
       },
       "geometry": {
         "coordinates": [
