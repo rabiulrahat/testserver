@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#fd0d0d",
+        "marker-size": "medium",
+        "https://static.thenounproject.com/png/2768411-200.png": ""
+      },
+      "geometry": {
+        "coordinates": [
+          90.34222742812125,
+          23.81274448859415
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
