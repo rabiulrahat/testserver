@@ -1,261 +1,80 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#62a0ea",
-        "marker-size": "medium"
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 60.534715,
+        "lon": -149.543469,
+        "original_index": 0
       },
-      "geometry": {
-        "coordinates": [
-          90.3429426600502,
-          23.81154032407173
-        ],
-        "type": "Point",
-        "bbox": [
-          90.3429426600502,
-          23.81154032407173,
-          90.3429426600502,
-          23.81154032407173
-        ]
+      {
+        "type": "break",
+        "lat": 60.53499,
+        "lon": -149.54858,
+        "original_index": 1
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#e01b24",
-        "marker-size": "medium",
-        "place": "crocodile"
-      },
-      "geometry": {
-        "coordinates": [
-          90.34691603042825,
-          23.818590985929774
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 1,
+            "instruction": "Drive west on AK 1/Seward Highway.",
+            "verbal_pre_transition_instruction": "Drive west on Alaska 1, Seward Highway. Then You will arrive at your destination.",
+            "verbal_post_transition_instruction": "Continue for 900 feet.",
+            "street_names": [
+              "AK 1",
+              "Seward Highway"
+            ],
+            "time": 11.487,
+            "length": 0.176,
+            "cost": 15.508,
+            "begin_shape_index": 0,
+            "end_shape_index": 9,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 4,
+            "instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination.",
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 9,
+            "end_shape_index": 9,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          }
         ],
-        "type": "Point",
-        "bbox": [
-          90.34691603042825,
-          23.818590985929774,
-          90.34691603042825,
-          23.818590985929774
-        ]
+        "summary": {
+          "has_time_restrictions": false,
+          "min_lat": 60.534715,
+          "min_lon": -149.54858,
+          "max_lat": 60.535008,
+          "max_lon": -149.543469,
+          "time": 11.487,
+          "length": 0.176,
+          "cost": 15.508
+        },
+        "shape": "wzvmrBxalf|GcCrX}A|Nu@jI}@pMkBtZ{@x^_Afj@Inn@`@veB"
       }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "min_lat": 60.534715,
+      "min_lon": -149.54858,
+      "max_lat": 60.535008,
+      "max_lon": -149.543469,
+      "time": 11.487,
+      "length": 0.176,
+      "cost": 15.508
     },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            90.34224573934591,
-            23.812750896502536
-          ],
-          [
-            90.34234160043286,
-            23.813635206030355
-          ],
-          [
-            90.34265314896624,
-            23.81394946333785
-          ],
-          [
-            90.34336411869464,
-            23.814117554143508
-          ],
-          [
-            90.34401118103085,
-            23.814344110971476
-          ],
-          [
-            90.3443946253804,
-            23.814592592199617
-          ],
-          [
-            90.34472215076107,
-            23.815359957695136
-          ],
-          [
-            90.34523766138318,
-            23.81589917331553
-          ],
-          [
-            90.3455579812171,
-            23.815674051633138
-          ]
-        ],
-        "type": "LineString",
-        "bbox": [
-          90.34224573934591,
-          23.812750896502536,
-          90.3455579812171,
-          23.81589917331553
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            90.34560685413959,
-            23.815733129688155
-          ],
-          [
-            90.34733246686318,
-            23.815931542212354
-          ],
-          [
-            90.34697414291043,
-            23.814818702831744
-          ],
-          [
-            90.34644608655873,
-            23.814137191834305
-          ]
-        ],
-        "type": "LineString",
-        "bbox": [
-          90.34560685413959,
-          23.814137191834305,
-          90.34733246686318,
-          23.815931542212354
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            90.34639990246143,
-            23.814114499323807
-          ],
-          [
-            90.34643762077286,
-            23.81252716842313
-          ],
-          [
-            90.34532493060135,
-            23.81260481005988
-          ],
-          [
-            90.34394821225311,
-            23.812138959542025
-          ],
-          [
-            90.34372190238787,
-            23.811483315242143
-          ],
-          [
-            90.34330700096297,
-            23.810681162540433
-          ],
-          [
-            90.34428767704526,
-            23.80967180268577
-          ]
-        ],
-        "type": "LineString",
-        "bbox": [
-          90.34330700096297,
-          23.80967180268577,
-          90.34643762077286,
-          23.814114499323807
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            90.34224423163818,
-            23.812751244318193
-          ],
-          [
-            90.34237205244045,
-            23.811327626471694
-          ]
-        ],
-        "type": "LineString",
-        "bbox": [
-          90.34224423163818,
-          23.811327626471694,
-          90.34237205244045,
-          23.812751244318193
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#ff7800",
-        "marker-size": "National zoo"
-      },
-      "geometry": {
-        "coordinates": [
-          90.3448917856411,
-          23.812930295113958
-        ],
-        "type": "Point",
-        "bbox": [
-          90.3448917856411,
-          23.812930295113958,
-          90.3448917856411,
-          23.812930295113958
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "place": "monkey",
-        "marker-color": "#9141ac",
-        "marker-size": "medium"
-      },
-      "geometry": {
-        "coordinates": [
-          90.34644061394442,
-          23.81248952669874
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          61.975775028573175,
-          -86.85154345411135
-        ]
-      },
-      "properties": {}
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "place ": "Bird case",
-        "marker-color": "#2ec27e",
-        "marker-size": "medium"
-      },
-      "geometry": {
-        "coordinates": [
-          90.3433210730459,
-          23.814151222500143
-        ],
-        "type": "Point"
-      }
-    }
-  ],
-  "bbox": [
-    90.34224423163818,
-    23.80967180268577,
-    90.34733246686318,
-    23.818590985929774
-  ]
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "miles",
+    "language": "en-US"
+  }
 }
